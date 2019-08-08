@@ -1,2 +1,6 @@
-# BelatrixExercise
-Belatrix exercise for java developer
+# Belatrix Exercise
+
+1. If you were to review the following code, what feedback would you give? Please be specific and indicate any errors that would occur as well as other best practices and code refactoring that should be done.
+
+
+>The development carried out does not have good practices, on the contrary, the whole code is found under a single method, which makes it difficult to understand it. To start, there are variables and code that are not used and should be eliminated to avoid confusion with the real purpose of the system. Also, a constructor with too many parameters is used without rescuing which are mandatory and optional. As for the nomenclature of the variables, these have not been correctly assigned, since they are not related to the function that they fulfill in the project. In addition, there are initialized variables that will not necessarily be used as the database connection, the creation of the handles for the logger and, with this, consume resources that can be avoided to improve system performance. On the other hand, the exceptions shown to the user are not clear and do not allow to quickly identify the origin of the problem.
